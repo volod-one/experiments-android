@@ -3,4 +3,5 @@
     <string name="open_toast_activity">Open toast activity</string>
     <string name="run_toast">Run toast</string>
     <string name="closeToastActivity">closeToastActivity</string>
+    <string name="open_hyperskill_org">open hyperskill org</string>
 </resources>

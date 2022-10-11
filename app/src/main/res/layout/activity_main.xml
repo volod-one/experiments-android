@@ -21,5 +21,11 @@
             android:layout_height="wrap_content"
             android:text="@string/open_toast_activity" />
 
+        <Button
+            android:id="@+id/openHyperskillOrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_hyperskill_org" />
+
     </LinearLayout>
 </ScrollView>

@@ -1,6 +1,7 @@
 package com.example.experimentsandroid
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
@@ -17,6 +18,13 @@ class MainActivity : AppCompatActivity() {
         btnToToastActivity.setOnClickListener {
             val intent = Intent(this, ToastActivity::class.java)
             intent.putExtra("toast", "Hello from MainActivity")
+            startActivity(intent)
+        }
+
+        val btnOpenHyperskill = binding.openHyperskillOrg
+        btnOpenHyperskill.setOnClickListener {
+            val website = Uri.parse("https://hyperskill.org")
+            val intent = Intent(Intent.ACTION_VIEW,website)
             startActivity(intent)
         }
     }
