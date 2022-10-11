@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">experimentsAndroid</string>
+    <string name="open_toast_activity">Open toast activity</string>
 </resources>
